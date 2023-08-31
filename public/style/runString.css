@@ -1,0 +1,53 @@
+.run__container {
+  display: flex;
+  align-items: center;
+
+  width: 1920px;
+height: 69px;
+background: white;
+}
+
+.run__string {
+display:flex;
+justify-content: flex-start;
+height: 32px;
+padding: 16px 20px;
+margin-left: 12px;
+align-items: center;
+gap: 20px;
+
+border-radius: 5px;
+border: 1px solid var(--servermall-devider, #E3E2E2);
+background: var(--background-white, #FFF);
+
+white-space: nowrap; /* Запрещаем перенос текста */
+  overflow: hidden; /* Скрываем текст, выходящий за пределы блока */
+  animation: marquee 15s linear infinite; /* Запускаем анимацию */
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%); /* Начальная позиция */
+  }
+  to {
+    transform: translateX(-100%); /* Конечная позиция */
+  }
+}
+
+.danger {
+color: var(--servermall-red, #F00073);
+font-family: IBM Plex Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+position: relative;
+margin-left: 15px;
+}
+
+.danger__img {
+  position: absolute;
+    left: -26px;
+    top: 2px;
+}
