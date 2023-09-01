@@ -1,0 +1,39 @@
+.currency__items {
+color: var(--servermall_black, #313B43);
+text-align: right;
+
+
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; 
+text-transform: uppercase;
+
+margin-top: 16px;
+margin-bottom: 89px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.column__right_text {
+color: var(--servermall_black, #313B43);
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.border__column_right {
+display: flex;
+width: 156px;
+height: 78px;
+padding: 12px 26px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-bottom: 0.5px solid var(--servermall-devider, #E3E2E2);
+}

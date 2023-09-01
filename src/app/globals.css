@@ -12,9 +12,24 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  background: var(--backround_grey, #F6F9FC);
+  position: relative;
 }
 
 .wrapper {
+  margin-top: 42px;
+  margin-left: 40px;
   margin-bottom: 36px;
   display: flex;
+  z-index: 5;
+}
+
+.main__img {
+  position: absolute;
+  z-index: 0;
+}
+.main1__img {
+  position: absolute;
+    right: 0;
+    top: 673px;
 }

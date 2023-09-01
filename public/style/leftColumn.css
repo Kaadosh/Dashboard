@@ -21,7 +21,7 @@
   color: var(--servermall-black, #313B43);
 
   
-  font-family: IBM Plex Mono;
+  
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -43,7 +43,6 @@
   gap: 10px;
 
   color: var(--servermall-black, #313B43);
-font-family: IBM Plex Mono;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -53,7 +52,6 @@ text-transform: uppercase;
 
 .column__conversion_text {
 color: var(--servermall-red, #F00073);
-font-family: IBM Plex Mono;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -76,7 +74,6 @@ border-bottom: 0.5px solid var(--servermall-devider, #E3E2E2);
 
 .column__cqr_text {
 color: var(--servermall-yellow, #F5A623);
-font-family: IBM Plex Mono;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -99,7 +96,6 @@ border-bottom: 0.5px solid var(--servermall-devider, #E3E2E2);
 .column__plan_text {
 color: var(--servermall-green-dark, #30EE7E);
 
-font-family: IBM Plex Mono;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -109,7 +105,6 @@ text-transform: uppercase;
 
 .column__deals_text {
 color: var(--servermall-black, #313B43);
-font-family: IBM Plex Mono;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;

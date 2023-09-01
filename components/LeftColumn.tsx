@@ -1,8 +1,8 @@
-import '../public/style/unfoColumn.css';
+import '../public/style/leftColumn.css';
 
 
 
-const UnfoColumn = () => {
+const LeftColumn = () => {
   return (
     <div>
        <ul className="column__info">
@@ -25,4 +25,4 @@ const UnfoColumn = () => {
   )
 }
 
-export default UnfoColumn;
+export default LeftColumn;

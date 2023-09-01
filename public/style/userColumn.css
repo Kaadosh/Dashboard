@@ -38,7 +38,6 @@
 .circle__number {
 color: var(--servermall-yellow, #F5A623);
 text-align: center;
-font-family: IBM Plex Mono;
 font-size: 36px;
 font-style: normal;
 font-weight: 500;
@@ -65,7 +64,6 @@ line-height: 47px;
 .circle__number_2 {
   color: var(--servermall-red, #F00073);
   text-align: center;
-  font-family: IBM Plex Mono;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -92,7 +90,6 @@ line-height: 47px;
 .circle__number_3 {
   color: var(--servermall-blue, #0090F0);
   text-align: center;
-  font-family: IBM Plex Mono;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -119,7 +116,6 @@ line-height: 47px;
 .circle__number_4 {
   color: var(--servermall-black, #313B43);
   text-align: center;
-  font-family: IBM Plex Mono;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -129,7 +125,6 @@ line-height: 47px;
   .column__name {
 color: var(--servermall-black, #313B43);
 text-align: center;
-font-family: IBM Plex Mono;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
@@ -140,7 +135,6 @@ margin-bottom: 22px;
 
   .column__conversion {
 color: var(--servermall-red, #F00073);
-font-family: IBM Plex Mono;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -161,7 +155,6 @@ text-transform: uppercase;
 
 .column__cqr {
 color: var(--servermall-yellow, #F5A623);
-font-family: IBM Plex Mono;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -171,7 +164,6 @@ text-transform: uppercase;
 
 .column__plan {
 color: var(--servermall-green-dark, #30EE7E);
-font-family: IBM Plex Mono;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -181,7 +173,6 @@ text-transform: uppercase;
 
 .column__dealsInProgress {
 color: var(--servermall-black, #313B43);
-font-family: IBM Plex Mono;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;

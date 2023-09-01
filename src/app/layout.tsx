@@ -1,8 +1,13 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { IBM_Plex_Mono } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = IBM_Plex_Mono({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+  style:  'normal',
+  display: 'swap'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
